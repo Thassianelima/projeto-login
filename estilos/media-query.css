@@ -44,4 +44,27 @@
     div#formulario > h1{
         font-size: 2em;
     }
+
+    form > input[type=submit] {
+        float: right;
+        width: 70%;
+    }
+
+    form > a.botao {
+        float: right;
+        width: 70%;
+    }
+
+
+form > input[type=submit] {
+        width: 60%;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    form > a.botao {
+        width: 60%;
+        height: 50;
+        text-align: center;
+    }
 }
