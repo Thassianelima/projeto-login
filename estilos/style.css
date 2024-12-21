@@ -1,2 +1,46 @@
 @charset "UTF-8";
 
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    background-color: #8a2be2;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+section#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+}
+
+section#login > div#foto{
+    background:#8a2be2 url('../imagens/pexels-pixabay-355748.jpg') no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: left right;
+    display: block;
+}
+
+section#login > div#formulario{
+    padding: 10px;
+    display: block;
+}
