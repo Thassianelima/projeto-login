@@ -20,18 +20,19 @@ main{
 }
 
 section#login{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 250px;
     height: 510px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
     transition: width 1s, height 1s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+
 }
 
 section#login > div#foto{
@@ -45,11 +46,13 @@ section#login > div#foto{
 section#login > div#formulario{
     padding: 10px;
     display: block;
+    
 }
 
 div#formulario > h1{
     text-align: center;
     margin-bottom: 10px;
+    
 }
 
 div#formulario > p {
@@ -103,8 +106,38 @@ form > div.campo{
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+    border: 2px solid #f860c5;
 }
 
 div.campo > label{
     display: none;
+}
+
+div.campo > i{
+    color: rgb(245, 245, 245);
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    font-size: 1em;
+    width: 205px;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #f860c5;
+    color: black;
+    transform: translateY(-10px);
+
+}
+
+dv.campo > input:focus-within{
+        border: none;
+        background-color: white;
+}
+
+h1{
+    text-align: center;
 }

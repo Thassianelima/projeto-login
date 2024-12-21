@@ -15,6 +15,11 @@
     }
 
     body{background-image: linear-gradient(to top, #8a2be2, #4646f8);}
+
+    section#login{
+        width: 80vw;
+        height: 280px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -39,10 +44,12 @@
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
     
     div#formulario > h1{
         font-size: 2em;
+        text-align: center;
     }
 
     form > input[type=submit] {
@@ -67,4 +74,26 @@ form > input[type=submit] {
         height: 50;
         text-align: center;
     }
+
+    
+div.campo > input{
+    font-size: 1em;
+    width: 205px;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10px);
 }
+
+section#login{
+    width: 50vw;
+    height: 350px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+}
+
