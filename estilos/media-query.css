@@ -23,16 +23,25 @@
 
     }
     section#login > div#foto{
-        float: left;
-        width: 50%;
+        float: right;
+        width: 40%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float: right;
-        width: 50%;
+        float: left;
+        width: 60%;
     }
 
-    body{background-image: linear-gradient(to top, #dc2be2, #4646f8);}
+    body{background-image: 
+        linear-gradient(to top, #dc2be2, #4646f8);
+    }
 
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+    
+    div#formulario > h1{
+        font-size: 2em;
+    }
 }
